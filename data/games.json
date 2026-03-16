@@ -1,0 +1,18 @@
+{
+  "games": [
+    {
+      "id": "enigmata",
+      "title": "Enigmata",
+      "description": "Space shoot-em-up",
+      "path": "games/enigmata/",
+      "thumbnail": ""
+    },
+    {
+      "id": "test",
+      "title": "Test",
+      "description": "Doesn't actually exsist",
+      "path": "games/test/",
+      "thumbnail": ""
+    }
+  ]
+}
