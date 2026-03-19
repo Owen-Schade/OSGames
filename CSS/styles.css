@@ -1,1 +1,72 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Clear floats */
+.site-header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Hero section */
+.hero {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Content section */
+.content {
+    padding: 30px 0;
+}
+
+/* Footer */
+.site-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
