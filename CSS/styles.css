@@ -50,11 +50,39 @@ body {
     clear: both;
 }
 
-/* Hero section */
-.hero {
-    background: #f4f4f4;
-    padding: 40px 0;
-    text-align: center;
+.gameThumbnail {
+    width: 70px;
+    height: 70px;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    background: #EEE;
+    gap: 10px;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+    margin:3px;
+}
+
+.game:hover{
+    background: #DDD;
+}
+
+.gameTitle{
+    font-size:20px;
+    color: #000;
+}
+
+.gameDescription{
+    font-size:10px;
+    color: #111;
+}
+
+.gameInfo {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Content section */
