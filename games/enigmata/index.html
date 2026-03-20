@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Enigmata</title>
-  <link rel="stylesheet" href="../../CSS/styles.css">
+  <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 
 <body>
@@ -11,13 +11,13 @@
 <div id="navbar"></div>
 <div id="game"></div>
 
-<script src="../../js/components.js"></script>
+<script src="../js/components.js"></script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
 <script>
-  loadComponent("navbar", "../../components/navbar.html");
+  loadComponent("navbar", "../components/navbar.html");
 
-  loadComponent("game", "../../components/ruffle-container.html", {
+  loadComponent("game", "../components/ruffle-container.html", {
     type: "ruffle",
     swf: "enigmata/enigmata.swf"
   });
