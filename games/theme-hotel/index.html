@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Theme Hotel</title>
+  <link rel="stylesheet" href="../../CSS/styles.css">
+</head>
 
+<body>
+
+<div id="navbar"></div>
+<div id="game"></div>
+
+<script src="../../js/components.js"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+<script>
+  loadComponent("navbar", "../../components/navbar.html");
+
+  loadComponent("game", "../../components/ruffle-container.html", {
+    type: "ruffle",
+    swf: "hotel.swf"
+  });
+</script>
+
+</body>
+</html>
