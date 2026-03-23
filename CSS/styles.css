@@ -11,10 +11,14 @@ body {
     line-height: 1.6;
 }
 
+/* FIX: Ensure the container expands with its flex children */
 .container {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
+    display: flex;         /* Use Flexbox */
+    align-items: center;   /* Vertically center logo and nav */
+    justify-content: space-between; /* Pushes logo left, nav right */
 }
 
 /* Header */
@@ -24,17 +28,22 @@ body {
     padding: 15px 0;
 }
 
+/* FIX: Remove float, ensure visibility */
 .logo {
-    float: left;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block; /* Ensures a solid hit-area */
 }
 
+/* FIX: Remove floats from nav */
 .nav ul {
     list-style: none;
-    float: right;
+    display: flex;        /* Align list items horizontally */
 }
 
 .nav ul li {
-    display: inline;
     margin-left: 15px;
 }
 
@@ -43,12 +52,11 @@ body {
     text-decoration: none;
 }
 
-/* Clear floats */
-.site-header::after {
-    content: "";
-    display: block;
-    clear: both;
+.nav a:hover {
+    text-decoration: underline;
 }
+
+/* --- Rest of your code remains the same --- */
 
 .gameThumbnail {
     width: 70px;
@@ -87,7 +95,7 @@ body {
 
 .game-container{
     height: 100%;
-    Width: 100%;
+    width: 100%;
 }
 
 /* Content section */
