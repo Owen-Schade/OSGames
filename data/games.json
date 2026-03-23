@@ -8,11 +8,11 @@
       "thumbnail": ""
     },
     {
-      "id": "test",
-      "title": "Test",
-      "description": "Doesn't actually exsist",
-      "path": "games/test/",
-      "thumbnail": "data/icons/birdart2011.jpg"
+      "id": "theme-hotel",
+      "title": "Theme Hotel",
+      "description": "Hotel managment tycoon",
+      "path": "games/theme-hotel/",
+      "thumbnail": ""
     }
   ]
 }
