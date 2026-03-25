@@ -5,7 +5,7 @@
       "title": "Enigmata",
       "description": "Space shoot-em-up",
       "path": "games/enigmata/",
-      "thumbnail": ""
+      "thumbnail": "data/icons/enigmata-icon.png"
     },
     {
       "id": "theme-hotel",
@@ -13,6 +13,13 @@
       "description": "Hotel managment tycoon",
       "path": "games/theme-hotel/",
       "thumbnail": "data/icons/theme-hotel-icon.png"
+    },
+    {
+      "id": "papa-louie-2",
+      "title": "Papa Louie 2: When Burgers Attack!",
+      "description": "Food-themed platformer",
+      "path": "games/papa-louie-2/",
+      "thumbnail": "data/icons/papa-louie-2-icon.png"
     }
   ]
 }

@@ -11,103 +11,84 @@ body {
     line-height: 1.6;
 }
 
-/* FIX: Ensure the container expands with its flex children */
-.container {
-    width: 90%;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;         /* Use Flexbox */
-    align-items: center;   /* Vertically center logo and nav */
-    justify-content: space-between; /* Pushes logo left, nav right */
-}
-
-/* Header */
+/* Navbar styles */
 .site-header {
-    background: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-container {
+    background-color: #333;
     color: #fff;
-    padding: 15px 0;
-}
-
-/* FIX: Remove float, ensure visibility */
-.logo {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.5rem;
-    display: inline-block; /* Ensures a solid hit-area */
-}
-
-/* FIX: Remove floats from nav */
-.nav ul {
-    list-style: none;
-    display: flex;        /* Align list items horizontally */
-}
-
-.nav ul li {
-    margin-left: 15px;
-}
-
-.nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-}
-
-/* --- Rest of your code remains the same --- */
-
-.gameThumbnail {
-    width: 70px;
-    height: 70px;
-}
-
-.game {
     display: flex;
+    height: 8%;
+    max-height: 80px;
+    padding: 0 20px;
     align-items: center;
-    background: #EEE;
-    gap: 10px;
-    text-decoration: none;
-    padding: 6px;
-    border-radius: 5px;
-    margin:3px;
+}
+.logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
 }
 
-.game:hover{
-    background: #DDD;
-}
-
-.gameTitle{
-    font-size:20px;
-    color: #000;
-}
-
-.gameDescription{
-    font-size:10px;
-    color: #111;
-}
-
-.gameInfo {
+/* Main content styles */
+.site-main {
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
+    background: #eee;
+    height: 100vh;
+    align-items: center;
 }
 
-.game-container{
-    height: 100%;
-    width: 100%;
+/* Search bar styles */
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 4px;
 }
 
-/* Content section */
-.content {
-    padding: 30px 0;
+/*Search Result styles*/
+.game-list{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.game-item{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #ddd;
+    border-radius: 4px;
+    border: 1px solid #555;
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px;
+}
+.game-item:hover {
+    background-color: #aaa;
+} 
+.game-thumbnail {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    border: #555 solid 1px;
+}
+.game-title{
+    font-size: 1.2em;
+    color: #333;
 }
 
-/* Footer */
-.site-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
+/* Game container styles */
+.game-container {
+  height: 100%;
+  aspect-ratio: 4 / 3;
+}
+#game-container {
+  height: 100%;
 }

@@ -1,4 +1,4 @@
-const gameList = document.getElementById('gameList');
+const gameList = document.getElementById('game-list');
 const searchInput = document.getElementById('search');
 
 let data = { games: [] };
@@ -13,14 +13,14 @@ function displayGames(games) {
 
   games.forEach(game => {
     const div = document.createElement('a');
-    div.className = 'game';
+    div.className = 'game-item';
     div.href = game.path;
 
     div.innerHTML = `
-      <img class="gameThumbnail" src="${game.thumbnail}"></img>
-      <div class="gameInfo">
-        <div class="gameTitle">${game.title}</div>
-        <div class="gameDescription">${game.description}</div>
+      <img class="game-thumbnail" src="${game.thumbnail}"></img>
+      <div class="game-info">
+        <div class="game-title">${game.title}</div>
+        <div class="game-description">${game.description}</div>
       </div>
     `;
 

@@ -19,7 +19,10 @@ function initRuffle(container, swfPath) {
   const ruffle = window.RufflePlayer.newest();
   const player = ruffle.createPlayer();
 
-  const gameContainer = container.querySelector("#game-container");
+  player.style.width = "100%";
+  player.style.height = "100%";
+
+  const gameContainer = container.querySelector(".game-container");
   gameContainer.appendChild(player);
 
   player.load(swfPath);
@@ -30,8 +33,8 @@ function initIframe(container, src) {
 
   const iframe = document.createElement("iframe");
   iframe.src = src;
-  iframe.width = "700";
-  iframe.height = "500";
+  iframe.width = "100%";
+  iframe.height = "100%";
   iframe.frameBorder = "0";
 
   gameContainer.appendChild(iframe);

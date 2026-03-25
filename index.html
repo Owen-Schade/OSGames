@@ -11,7 +11,7 @@
 <body>
 
     <header class="site-header">
-        <div class="container">
+        <div class="nav-container">
             <h1 class="logo">OSGames</h1>
             <nav class="nav">
             </nav>
@@ -19,18 +19,11 @@
     </header>
 
     <main class="site-main">
-        <section class="content">
-            <div class="container">
-                <h2>Games</h2>
+        <!-- Search bar -->
+        <input type="text" class="search-bar" id="search" placeholder="Search games..." />
 
-                <!-- Search bar -->
-                <input type="text" id="search" placeholder="Search games..." />
-
-                <!-- Game list -->
-                <div id="gameList"></div>
-
-            </div>
-        </section>
+        <!-- Game list -->
+        <div id="game-list" class="game-list"></div>
     </main>
 
     <footer class="site-footer">
