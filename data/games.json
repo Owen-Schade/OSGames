@@ -20,6 +20,13 @@
       "description": "Food-themed platformer",
       "path": "games/papa-louie-2/",
       "thumbnail": "data/icons/papa-louie-2-icon.png"
+    },
+    {
+      "id": "hollow-knight",
+      "title": "Hollow Knight",
+      "description": "2D Metroidvania",
+      "path": "games/hollow-knight/index.html",
+      "thumbnail": "data/icons/hollow-knight-icon.png"
     }
   ]
 }
