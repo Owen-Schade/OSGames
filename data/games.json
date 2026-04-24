@@ -20,6 +20,20 @@
       "description": "Food-themed platformer",
       "path": "games/papa-louie-2/",
       "thumbnail": "data/icons/papa-louie-2-icon.png"
+    },
+    {
+      "id": "hollow-knight",
+      "title": "Hollow Knight",
+      "description": "2D Metroidvania. Build by Bog Dingles",
+      "path": "games/hollow-knight/index.html",
+      "thumbnail": "data/icons/hollow-knight-icon.png"
+    },
+    {
+      "id": "pizza-tower",
+      "title": "Pizza Tower",
+      "description": "Fast-paced 2D platformer. Build by BurnedPopcorn",
+      "path": "games/pizza-tower/betterrunner.html",
+      "thumbnail": "data/icons/pizza-tower-icon.png"
     }
   ]
 }
