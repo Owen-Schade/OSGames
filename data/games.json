@@ -41,6 +41,20 @@
       "description": "Proxy using WISP",
       "path": "games/gust/index.html",
       "thumbnail": "data/icons/gust-icon.png"
+    },
+    {
+      "id": "gust-lite",
+      "title": "GUST Lite",
+      "description": "Should run better than GUST",
+      "path": "games/gust/GUST-Lite.html",
+      "thumbnail": "data/icons/gust-icon.png"
+    },
+    {
+      "id": "gust",
+      "title": "GUST Patcher",
+      "description": "Make your own custom GUST",
+      "path": "games/gust/GUST-Patcher.html",
+      "thumbnail": "data/icons/gust-icon.png"
     }
   ]
 }
