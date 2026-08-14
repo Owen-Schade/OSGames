@@ -34,6 +34,13 @@
       "description": "Fast-paced 2D platformer. Build by BurnedPopcorn",
       "path": "games/pizza-tower/betterrunner.html",
       "thumbnail": "data/icons/pizza-tower-icon.png"
+    },
+    {
+      "id": "gust",
+      "title": "GUST",
+      "description": "Proxy using WISP",
+      "path": "games/gust/index.html",
+      "thumbnail": "data/icons/gust-icon.png"
     }
   ]
 }
