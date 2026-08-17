@@ -7,6 +7,7 @@
 
 /* General layout */
 body {
+    background: #eee;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -38,7 +39,6 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 80px;
-    background: #eee;
     height: 100vh;
     align-items: center;
 }
